@@ -1,0 +1,25 @@
+{
+  "id": "0",
+  "name": "SANS Firewall block list",
+  "description": "SANS recommended TCP and UDP blocked ports for firewall security. See <a href=\"http://www.sans.org/score/checklists/FirewallChecklist.pdf\">checklist here</a> ",
+  "code": "SANS_FW_BLOCK",
+  "created": null,
+  "enabled": false,
+  "account": null,
+  "rules": [
+    {
+      "name": "TCP Expected Closed",
+      "transport": "TCP",
+      "protocol": "Simple",
+      "portspec": "1-23,25,37,53,79,80,87,109-111,119,123,135,139,143,161,162,179,389,443,445,512-515,540,1080,2000,2001,2049,4001,4045,6000-6255,8000,8080,8888",
+      "resultCode": 12109
+    },
+    {
+      "name": "UDP Expected Closed",
+      "transport": "UDP",
+      "protocol": "Simple",
+      "portspec": "1-20,37,69,111,135,137,138,161,162,389,445,514,2000,2049,4045,6000-6255",
+      "resultCode": 12109
+    }
+  ]
+}
