@@ -8,6 +8,7 @@
   "account": null,
   "rules": [
     {
+      "@class": "com.firebind.recon.domain.policy.rule.ScanRule",
       "name": "TCP Expected Closed",
       "transport": "TCP",
       "protocol": "Simple",
@@ -15,6 +16,7 @@
       "resultCode": 12109
     },
     {
+      "@class": "com.firebind.recon.domain.policy.rule.ScanRule",
       "name": "UDP Expected Closed",
       "transport": "UDP",
       "protocol": "Simple",
