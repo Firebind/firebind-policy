@@ -23,5 +23,6 @@
       "portspec": "1-20,37,69,111,135,137,138,161,162,389,445,514,2000,2049,4045,6000-6255",
       "resultCode": 12109
     }
-  ]
+  ],
+  "@class": "com.firebind.recon.domain.policy.Policy"
 }
